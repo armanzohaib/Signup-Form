@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI-Task</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1ba2cf90f3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="sign-up-form-text">
+        <header>
+          <h2>Sign Up</h2>
+          <h5>sign up with</h5>
+          <div class="btn-group">
+            <button>
+              <i class="fab fa-google"></i>&emsp;sign up with google
+            </button>
+            <button>
+              <i class="fab fa-facebook"></i>&emsp;sign up with facebook
+            </button>
+          </div>
+        </header>
+        <form>
+          <div class="form-group">
+            <label for="username"> Name </label>
+            <input type="text" name="username" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+            />
+          </div>
+          <div class="form-group">
+            <input type="checkbox" name="conditions" />
+            <label for="terms">
+              I've read and agreed with terms and services of our privacy and
+              policy
+            </label>
+          </div>
+          <button type="submit">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </button>
+        </form>
+        <p>Already have an account ? <span>Sign In</span> </p>
+      </div>
+      <div class="sign-up-form-img">
+        <img src="./rocket.png" alt="img not found" />
+      </div>
+    </main>
+  </body>
+</html>
